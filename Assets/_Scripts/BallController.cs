@@ -18,7 +18,7 @@ public class BallController : MonoBehaviour
         // LaunchBall method will be called.
         inputManager.OnSpacePressed.AddListener(LaunchBall);
     }
-
+             
 
     private void LaunchBall()
     {
