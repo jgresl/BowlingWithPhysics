@@ -19,10 +19,13 @@ public class InputManager : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             input += Vector2.left;
+            Debug.Log("Left");
+
         }
         if (Input.GetKey(KeyCode.D))
         {
             input += Vector2.right;
+            Debug.Log("Right");
         }
 
         OnMove?.Invoke(input);
